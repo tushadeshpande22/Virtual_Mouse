@@ -23,7 +23,9 @@ A webcam for capturing video input
 
 Installing the dependencies
 "pip install opencv-python mediapipe pyautogui"
+mediapipe only supports python version from 3.7 - 3.10
 
 #Troubleshooting
+
 DLL Load Failures: Ensure that the Microsoft Visual C++ Redistributable is installed.
 Incorrect Mouse Movements: Adjust the camera angle or ensure that the lighting is adequate for gesture detection.
